@@ -1,10 +1,10 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <errno.h>
-#include <sys/tme.h>
+#include <sys/time.h>
 #include <sys/syscall.h>
 
-#define _NR_sys_my_xtime 100
+#define _NR_sys_my_xtime 326
 
 int main(){
 	struct timespec currTime;
